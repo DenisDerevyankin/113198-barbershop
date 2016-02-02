@@ -1,0 +1,26 @@
+
+h2 {
+  font-size: 13px;
+  font-family: "PT Sans Narrow";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+
+h3 {
+  font-size: 14px;
+  font-family: "PT Sans Narrow";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.286;
+}
+
+body {
+    /*Оформление текста*/
+  font-size: 14px;
+  font-family: "PT Sans Narrow";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
