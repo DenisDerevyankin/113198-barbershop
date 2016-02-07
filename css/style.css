@@ -1,5 +1,13 @@
+body {
+/*Оформление текста*/
+  font-size: 14px;
+  font-family: "PT Sans Narrow";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
 
 h2 {
+/*Оформление текста*/
   font-size: 13px;
   font-family: "PT Sans Narrow";
   color: rgb(0, 0, 0);
@@ -9,6 +17,7 @@ h2 {
 
 
 h3 {
+/*Оформление текста*/
   font-size: 14px;
   font-family: "PT Sans Narrow";
   color: rgb(0, 0, 0);
@@ -17,10 +26,180 @@ h3 {
   line-height: 1.286;
 }
 
-body {
-    /*Оформление текста*/
-  font-size: 14px;
-  font-family: "PT Sans Narrow";
-  color: rgb(0, 0, 0);
-  font-weight: bold;
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  background-color: antiquewhite;
+  
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  background-color:aqua;
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+
+  float: left;
+  width: 780px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.main-footer { 
+  clear: both;
+  background-color: aqua;
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  background-color:chartreuse;
+  
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  background-color:chartreuse;
+  
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  background-color:chartreuse;
+  
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+
+.pagehead {
+  background-color: aqua;
+  float:left;
+  min-height: 70px;
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+
+
+.filters {
+  background-color: aqua;
+  
+  float: left;
+  width: 220px;
+  height: 600px;
+}
+
+.shop {
+  background-color: aqua;
+  
+  float: right;
+  height: 600px;
+  width: 700px;
+  margin-bottom: 45px;
+}
+
+
+.filters-producer {
+  background-color:chartreuse;
+  
+  height: 260px;
+  margin-bottom: 55px;
+}
+
+.filters-groups {
+   background-color:chartreuse;
+  
+   height: 170px;
+}
+
+.shop-item {
+  background-color:chartreuse;
+  
+  float: left;
+  width: 220px;
+  height: 287px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.shop-item:nth-child(3n){
+  margin-right: 0px;
+}
+
+.nav-item {
+  background-color: aqua;
+  
+  float: left;
+  width: 100%;
+  height: 45px;
+}
+
+.nav-item-btn {
+  background-color:chartreuse;
+  
+  float: left;
+  width: 460px;
+  height: 100%;
+  margin-left: 240px;
 }
