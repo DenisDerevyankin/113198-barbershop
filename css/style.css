@@ -33,7 +33,7 @@ h3 {
 }
 
 .container {
-  background-color: antiquewhite;
+ 
   
   width: 940px;
   margin: 0 auto;
@@ -41,12 +41,12 @@ h3 {
 }
 
 .main-header {
-  background-color:aqua;
+
   margin-bottom: 60px;
 }
 
 .main-navigation {
-  background-color:chartreuse;
+
 
   float: left;
   width: 780px;
@@ -54,7 +54,7 @@ h3 {
 }
 
 .user-block {
-  background-color:chartreuse;
+
   
   float: right;
   width: 140px;
@@ -103,14 +103,13 @@ h3 {
 
 .main-footer { 
   clear: both;
-  background-color: aqua;
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
 .footer-contacts {
-  background-color:chartreuse;
+
   
   float: left;
   width: 320px;
@@ -119,7 +118,7 @@ h3 {
 }
 
 .footer-social {
-  background-color:chartreuse;
+
   
   float: left;
   width: 180px;
@@ -127,7 +126,7 @@ h3 {
 }
 
 .footer-copyright {
-  background-color:chartreuse;
+
   
   float: right;
   width: 180px;
@@ -136,7 +135,7 @@ h3 {
 
 
 .pagehead {
-  background-color: aqua;
+
   float:left;
   min-height: 70px;
   width: 100%;
@@ -146,7 +145,7 @@ h3 {
 
 
 .filters {
-  background-color: aqua;
+
   
   float: left;
   width: 220px;
@@ -154,30 +153,30 @@ h3 {
 }
 
 .shop {
-  background-color: aqua;
+
   
-  float: right;
+  float: left;
   height: 600px;
   width: 700px;
   margin-bottom: 45px;
+  margin-left: 20px;
 }
 
 
 .filters-producer {
-  background-color:chartreuse;
   
-  height: 260px;
+  min-height: 260px;
   margin-bottom: 55px;
 }
 
 .filters-groups {
-   background-color:chartreuse;
+
   
-   height: 170px;
+   min-height: 170px;
 }
 
 .shop-item {
-  background-color:chartreuse;
+
   
   float: left;
   width: 220px;
@@ -191,15 +190,15 @@ h3 {
 }
 
 .nav-item {
-  background-color: aqua;
+
   
-  float: left;
-  width: 100%;
+  margin-left: 240px;
+  clear: both;
   height: 45px;
 }
 
 .nav-item-btn {
-  background-color:chartreuse;
+
   
   float: left;
   width: 460px;
@@ -208,7 +207,7 @@ h3 {
 }
 
 .item-gallery {
-  background-color: aqua;
+
   
   float: left;
   width: 460px;
@@ -216,7 +215,7 @@ h3 {
 }
 
 .item-about {
-  background-color: aqua;
+
   
   float: right;
   width: 400px;
@@ -225,7 +224,7 @@ h3 {
 }
 
 .item-composition {
-  background-color: aqua;
+
   
   float: right;
   width: 400px;
